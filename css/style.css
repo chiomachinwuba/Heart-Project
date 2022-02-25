@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+}
+a:hover,
+a:focus {
+    color: #707070;
+}
+header {
+    padding: 12px 0;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  
+}
+nav ul li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: .25em;
+}
+
+/* 1em is 16px*/
+
+.current-page {
+  border-bottom: 1px solid white;
+}
+.current-page:hover {
+    color: #787878;
+}
+.container {
+    background-image: url(../img/pexels-magda-ehlers-2832772.jpg);
+    background-position: 12% 90%;
+    text-align: center;
+    color: white;
+    line-height: 2px;
+}
+.surgery img {
+    width: 100%;
+    border: ipx solid #e5e7e5;
+    border-top-right-radius: 2em;
+}
+.hero {
+    padding: 5em 0;
+}
+.best {
+    background-color: #f9fafb;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+    padding: 2em 2em .1em 2em;
+    line-height: 12px;
+}
+.surgery1 {
+    width: 50%;
+    background-color: white;
+    font-size: 1.3em;
+    text-align: center;
+    border: 1px solid #e5e7e5;
+    border-top-left-radius: 2em;
+    padding-top: 4em;
+    }
+    .open {
+        display: flex;
+        padding: 4em 4em 0 4em;
+        margin: 0;
+    }
+    .main {
+        background-color: #f9fafb;
+    }
+    .surgery {
+        width: 50%;
+    }
+    .card {
+        display: flex;
+        padding: 0 4em 0 4em;
+        margin: 0; 
+    }
+    .consult1 {
+        width: 50%;
+    }
+    .consult {
+    width: 50%;
+    background-color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 4em;
+    }
+    .consult1 img {
+        width: 100%;
+    }
+    .consult3 {
+        width: 50%;
+    }
+    .consult3 img {
+        width: 100%;
+        border: ipx solid #e5e7e5;
+        border-bottom-right-radius: 2em;
+    }
+    .consult2 {
+            width: 50%;
+            background-color: white;
+            font-size: 1.3em;
+            text-align: center;
+            border: 1px solid #e5e7e5;
+            border-bottom-left-radius: 2em;
+            padding-top: 4em;
+    }
+    .learn {
+        display: flex;
+        background-color: #e5e7eb;
+        color: black;
+        padding: 1em 2em;
+        margin: 0 3em;
+        font-size: 23px;
+        border-radius: .5em;
+    }
+    input[type=button] {
+        background-color: #4f46e5;
+        width: 50%;
+        color: white;
+        border: 1px solid #4f46e5;
+        border-radius: .5em;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 1.5em .3em;
+    }
+    .success {
+        display: flex;
+        background-color: #f3f4f6;
+        padding: 4em;
+    }
+    .went img {
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+        margin-left: 2em;
+    }
+    .have {
+        display: flex;
+        width: 80%;
+        background-color: white;
+        padding: 2em;
+        border-radius: 1em;
+        margin: 2em;
+    }
+    .patient {
+        width: 50%;
+    }
+    .outline {
+        display: block;
+    }
+    .weekly {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        background-color: #424fe7;
+        color: white;
+        padding: 1em 2em;
+    }
+    i {
+        color: tomato;
+        margin-right: .2em;
+    }
+    footer i {
+        color: #374151;
+    }
+    footer {
+        padding: 1em 0;
+        text-align: center;
+        background-color: black;
+        color: white;
+        line-height: 1px;
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 1em;
+        border: 1px solid #e5e7eb;
+        border-radius: .5em;
+        background-color: #f9fafb;
+    }
+    .need p {
+        font-size: 1.7em;
+        color: #6b7280;
+}
+.need {
+    padding: 0 10em;
+}
+.need a {
+    text-decoration: none;
+}
+input[type=date] {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #e5e7eb;
+    border-radius: .5em;
+    background-color: #f9fafb;
+    font-size: 1.2em;
+}
+input[type=button1] {
+    background-color: #4f46e5;
+    width: 15%;
+    text-align: center;
+    color: white;
+    border: 1px solid #4f46e5;
+    border-radius: .2em;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: .5em .2em;
+}
+.serve {
+    padding-top: 2em;
+    text-align: center;
+    line-height: 5px;
+}
+.cardiac {
+    display: flex;
+    text-align: center;
+}
+.img {
+    background-color: #f3f4f6;
+    width: 100%;
+    margin: 1em;
+    border-radius: 1em;
+}
+.pillar {
+    padding: 1em 20em;
+    text-align: center;
+}
+.top {
+    line-height: 5px;
+    text-align: center;
+}
+.who {
+    line-height: 20px; 
+    text-align: center;
+}
+.sac {
+    display: flex;
+}
+@media (max-width: 930px) {
+    nav ul {
+        font-size: 10px;
+    }
+    .hero {
+        font-size: 15px;
+    }
+    .best {
+        font-size: 10px;
+    }
+    .open {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .surgery1 {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 4em;
+        padding-bottom: 4em;
+        border-radius: 0;
+        }
+        .surgery {
+            width: 100%;
+        }
+        .surgery img {
+            border-radius: 0;
+        }
+        .card {
+        display: block;
+        margin: 0;
+        padding: 0;
+        }
+        .consult1 {
+            width: 100%;
+        }
+        .consult {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 4em;
+        padding-bottom: 4em;
+        border-radius: 0;
+        }
+        .consult2 {
+            width: 100%;
+            font-size: 10px;
+            text-align: center;
+            padding-top: 4em;
+            padding-bottom: 4em;
+            border-radius: 0; 
+        }
+        .consult3 {
+            width: 100%;
+        }
+        .consult3 img {
+            border-radius: 0;
+        }
+        .success {
+            display: block;
+        }
+        input[type=button] {
+            width: 100%;
+        }
+        .have {
+            display: block;
+            width: 100%;
+            margin-top: 2em;
+        }
+        .outline {
+            padding: 0;
+            font-size: 10px;
+            width: 90%;
+            margin: 0;
+        }
+        .need {
+            padding: 0 0 0 1em;
+        }
+        input[type=text] {
+            width: 90%;
+        }
+        input[type=date] {
+            width: 90%;
+        }
+        input[type=button1] {
+            width: 30%;
+            border: 1px solid #4f46e5;
+            border-radius: .2em;
+            font-size: 17px;
+            cursor: pointer;
+            padding: 10px;
+        }
+        .cardiac {
+            display: block;
+            border: 0;
+            border-radius: 0;
+            margin: 0;
+            width: 90%;
+        }
+        .pillar {
+            padding: 0;
+        }
+        .pillar img {
+            width: 100%;
+        }
+        .who {
+            line-height: 30px;
+        }
+        .patient h1 {
+            font-size: 15px;
+        }
+}
